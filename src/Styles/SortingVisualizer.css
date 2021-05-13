@@ -1,0 +1,108 @@
+body {
+  overflow: hidden;
+  background: #ececec;
+}
+
+.array-container {
+    position: center;
+    padding-top: 170px;
+}
+
+.array-bar {
+    width: 3px;
+    background: linear-gradient(0deg, #555452, #ececec);
+    display: inline-block;
+    margin: 0 1px;
+}
+
+.params {
+    position: fixed;
+    top: 5px;
+    left: 140px;
+    font-family:arial;
+    font-size: 20px;
+    color: #888888;
+}
+
+.buttons {
+    position: fixed;
+    top: 0px;
+    right: 200px;
+}
+
+.sort-buttons {
+    position: fixed;
+    top: 0px;
+    left: 520px;
+}
+
+input[type="range"] { 
+  outline: none;
+  margin: auto;
+  -webkit-appearance: none;
+  position: relative;
+  top: 10px;
+  overflow: hidden;
+  height: 40px;
+  width: 200px;
+  cursor: pointer;
+  border: 1px;
+  border-radius: 0; /* iOS */
+}
+
+::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #555452, #ececec);
+}
+
+::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px; /* 1 */
+  height: 40px;
+  background: #fff;
+  border: 2px solid #999; /* 1 */
+}
+
+::-moz-range-track {
+  height: 40px;
+  background: #ddd;
+}
+
+::-moz-range-thumb {
+  background: linear-gradient(0deg, #555452, #ececec);
+  height: 40px;
+  width: 20px;
+  border: 1px solid #999;
+  border-radius: 0 !important;
+  box-sizing: border-box;
+}
+
+::-ms-fill-lower { 
+  background:linear-gradient(0deg, #555452, #ececec);
+}
+
+::-ms-thumb { 
+  background: linear-gradient(0deg, #555452, #ececec);
+  border: 1px solid #999;
+  height: 40px;
+  width: 20px;
+  box-sizing: border-box;
+}
+
+::-ms-ticks-after { 
+  display: none; 
+}
+
+::-ms-ticks-before { 
+  display: none; 
+}
+
+::-ms-track { 
+  background: linear-gradient(0deg, #555452, #ececec);
+  color: transparent;
+  height: 40px;
+  border: none;
+}
+
+::-ms-tooltip { 
+  display: none;
+}
